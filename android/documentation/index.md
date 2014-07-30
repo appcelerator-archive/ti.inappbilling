@@ -6,7 +6,7 @@ The InAppBilling module allows you to access the Android In-App Billing mechanis
 
 ## Dependencies
 
-* This module requires Titanium SDK 3.2.1.GA or later.
+* This module requires Titanium SDK 3.2.2.GA or later.
 * This module must be tested on a device, testing on an emulator will not work.
 * Your test device should be running on Android SDK Version 2.2 (API level 8) or higher, and have Google Play client Version 3.9.16 or higher installed.
 

@@ -15,4 +15,4 @@ name: inappbilling
 moduleid: ti.inappbilling
 guid: 3bdb4cb3-765b-41cc-8268-d8deb35ece07
 platform: android
-minsdk: 3.2.1.GA
+minsdk: 3.2.2.GA
