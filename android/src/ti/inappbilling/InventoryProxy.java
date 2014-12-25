@@ -45,6 +45,8 @@ public class InventoryProxy extends KrollProxy {
         details.put("price", skuDetails.getPrice());
         details.put("title", skuDetails.getTitle());
         details.put("description", skuDetails.getDescription());
+        details.put("price_amount_micros", skuDetails.getPriceAmountMicros());
+        details.put("price_currency_code", skuDetails.getPriceCurrencyCode());
         
         return details;
     }

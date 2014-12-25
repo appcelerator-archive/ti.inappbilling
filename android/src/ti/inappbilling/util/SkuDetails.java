@@ -28,6 +28,8 @@ public class SkuDetails {
     String mPrice;
     String mTitle;
     String mDescription;
+    String mPriceAmountMicros;
+    String mPriceCurrencyCode;
     String mJson;
 
     public SkuDetails(String jsonSkuDetails) throws JSONException {
@@ -43,6 +45,8 @@ public class SkuDetails {
         mPrice = o.optString("price");
         mTitle = o.optString("title");
         mDescription = o.optString("description");
+        mPriceAmountMicros = o.optString("price_amount_micros");
+        mPriceCurrencyCode = o.optString("price_currency_code");
     }
 
     public String getSku() { return mSku; }
@@ -50,6 +54,8 @@ public class SkuDetails {
     public String getPrice() { return mPrice; }
     public String getTitle() { return mTitle; }
     public String getDescription() { return mDescription; }
+    public String getPriceAmountMicros() { return mPriceAmountMicros; }
+    public String getPriceCurrencyCode() { return mPriceCurrencyCode; }
 
     @Override
     public String toString() {
