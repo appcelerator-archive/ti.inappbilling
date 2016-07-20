@@ -2,13 +2,13 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 3.0.2
-apiversion: 2
-architectures: armeabi armeabi-v7a x86
+version: 4.0.0
+apiversion: 3
+architectures: armeabi-v7a x86
 description: In-App Billing Module
 author: Alexander Conway (Logical Labs) and Jon Alter
 license: Apache License, Version 2.0
-copyright: Copyright (c) 2010-2014 by Appcelerator,  Inc.
+copyright: Copyright (c) 2010-2016 by Appcelerator,  Inc.
 
 
 # these should not be edited
@@ -16,4 +16,4 @@ name: inappbilling
 moduleid: ti.inappbilling
 guid: 3bdb4cb3-765b-41cc-8268-d8deb35ece07
 platform: android
-minsdk: 4.0.0.GA
+minsdk: 6.0.0
