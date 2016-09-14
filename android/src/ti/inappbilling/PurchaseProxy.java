@@ -40,6 +40,7 @@ public class PurchaseProxy extends KrollProxy {
     public String getToken() { return purchase.getToken(); }
     @Kroll.method @Kroll.getProperty
     public String getSignature() { return purchase.getSignature(); }
+    public Purchase getPurchase() { return purchase; }
     @Kroll.method @Kroll.getProperty
     public KrollDict getReceipt() {
         KrollDict receipt = new KrollDict();
@@ -47,8 +48,4 @@ public class PurchaseProxy extends KrollProxy {
         receipt.put("signature", purchase.getSignature());
         return receipt;
     }
-    
-
-
-    public Purchase getPurchase() { return purchase; }
 }
