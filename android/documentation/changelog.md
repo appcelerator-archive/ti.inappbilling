@@ -1,5 +1,7 @@
 # Change Log
 <pre>
+v4.1.0  Expose `price_amount_micros` and `price_currency_code` to Inventory proxy 
+
 v4.0.1  Add External Validation helper
 
 v4.0.0  Update to compile against V8 5.1.281.59 and TiSDK 6.0.0+
