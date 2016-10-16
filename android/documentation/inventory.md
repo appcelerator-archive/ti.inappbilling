@@ -21,6 +21,8 @@ The object returned will have the following properties:
 * __productId__[string]: The product's id.
 * __type__[string]: The product's type (ITEM_TYPE_INAPP or ITEM_TYPE_SUBSCRIPTION).
 * __price__[string]: The product's price.
+* __price_amount_micros__[string]: The product's price amount micros.
+* __price_currency_code__[string]: The product's price currency code.
 * __title__[string]: The product's title.
 * __description__[string]: The product's description.
 
